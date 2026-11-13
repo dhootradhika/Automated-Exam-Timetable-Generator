@@ -1,50 +1,29 @@
-# Automated-Exam-Timetable-Generator
-A Python-based Automated Exam Timetable Generator using Graph Coloring and Backtracking algorithms to create conflict-free exam schedules with CSV input support and a Tkinter GUI.
+
 # Automated Exam Timetable Generator
 
-## 📌 Project Overview
-The Automated Exam Timetable Generator is a Python-based project developed as part of the Design and Analysis of Algorithms (DAA) course. It automatically generates an exam timetable while avoiding scheduling conflicts between subjects.
+## Project Overview
+A Python desktop application that generates examination
+timetables using graph coloring and backtracking.
 
-## ✨ Features
-- Automatic exam timetable generation.
-- Conflict detection between subjects.
-- Graph Coloring Algorithm.
-- Backtracking technique for valid scheduling.
-- CSV file support for input data.
-- User-friendly GUI using Tkinter.
+## Objectives
+- Detect conflicts between subjects.
+- Assign exams to valid time slots.
+- Check room capacity and room availability.
+- Apply minimum-gap constraints.
+- Compare greedy coloring and backtracking algorithms.
 
-## 🛠️ Technologies Used
+## Technologies
 - Python
 - Tkinter
-- CSV
-- Graph Coloring Algorithm
-- Backtracking Algorithm
+- Graph Coloring
+- Backtracking
 
-## ⚙️ How to Run
+## How to Run
+1. Install Python.
+2. Open the project folder in VS Code.
+3. Run: python main.py
 
-1. Clone the repository:
-   ```bash
-   git clone YOUR_REPOSITORY_URL
-   ```
-2. Open the project folder.
-3. Install required dependencies, if any:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the Python application:
-   ```bash
-   python main.py
-   ```
-
-## 🎯 Project Objective
-To automate exam scheduling, reduce manual effort, and generate conflict-free examination timetables using algorithmic techniques.
-
-## 👩‍💻 Developed By
-Radhika Dhoot
-
-**Course:** Design and Analysis of Algorithms (DAA)
-
-## 📚 Learning Outcomes
-- Practical implementation of Graph Coloring.
-- Understanding Backtracking.
-- Applying algorithmic concepts to real-world scheduling problems.
+## Limitations
+The current version assigns each subject to a single room.
+It searches for a valid schedule but does not guarantee
+the globally minimum number of time slots.
